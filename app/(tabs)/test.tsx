@@ -13,7 +13,7 @@ import { useState } from "react";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { router } from "expo-router";
 
-export default function HomeScreen() {
+export default function TestScreen() {
   const [modalVisible, setModalVisible] = useState(false);
   const [players, setPlayers] = useState(["", "", "", ""]);
 
